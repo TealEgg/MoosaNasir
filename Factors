@@ -3,6 +3,5 @@ May 24th 2022
 
 This is my first post so welcome! I just finished working on creating this website from scratch and so far it works, just a little janky in some areas. In this post I'm going to be talking about the integer sequences of the largest, smallest, largest prime, and smallest prime factor of a number. The sequences they create don't seem to be recorded so I thought it would be a good idea to write them down. 
 
-For those who don't know, a factor f of a number n is an integer that when n is divided by f, the quotient is equal to an integer (not a decimal). The largest factor of any number n is the largest integer that divides evenly into n. The smallest factor of any number n is the smallest integer that divides evenly into n. The largest prime factor of any number n is the largest prime integer that divides evenly into n. The smallest prime factor of any number n is the smallest prime integer that divides evenly into n.
-
+For those who don't know, a factor f of a number n is an integer that when n is divided by f, the quotient is equal to an integer (not a decimal). The largest factor of any number n is the largest integer that divides evenly into n. The same applies to the others (smallest and primes).
 
