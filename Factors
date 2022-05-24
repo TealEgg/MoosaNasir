@@ -1,4 +1,4 @@
-Greatest factors, smallest factor and some Prime as well
+<b>Greatest factors, smallest factor and some Prime as well</b>
 May 24th 2022
 
 This is my first post so welcome! I just finished working on creating this website from scratch and so far it works, just a little janky in some areas. In this post I'm going to be talking about the integer sequences of the largest, smallest, largest prime, and smallest prime factor of a number. The sequences they create don't seem to be recorded so I thought it would be a good idea to write them down. 
@@ -19,5 +19,8 @@ int largestDivisor(int n)
   }
   return largestDivisor;
 }
-
+If a number is prime, then we set its largest divisor is 0. This is because technically the largest divisor of any number is itself and if we were to follow that logic, the squence would not look that interesting. To create a sequence, we can use a for loop to iterate over the positive numbers starting from 1. It gives us the following sequence which is the first 25 numbers
+0, 0, 0, 2, 0, 3, 0, 4, 3, 5, 0, 6, 0, 7, 5, 8, 0, 9, 0, 10, 7, 11, 0, 12 
+There is no visible pattern seen when just looking at the numbers but when we graph the sequence in a scatter plot, we can see something(s) emerge:
+<img src="img_girl.jpg" alt="graph of largest factor of an integer">
 
