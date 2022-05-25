@@ -18,7 +18,7 @@ Lets first discuss the largest factor. The basic algorithm to caculate this is a
     }
   }
   return largestDivisor;
-}</code>
+}</code></pre>
 If a number is prime, then we set its largest divisor is 0. This is because technically the largest divisor of any number is itself and if we were to follow that logic, the squence would not look that interesting. To create a sequence, we can use a for loop to iterate over the positive numbers starting from 1. It gives us the following sequence which is the first 25 numbers
 0, 0, 0, 2, 0, 3, 0, 4, 3, 5, 0, 6, 0, 7, 5, 8, 0, 9, 0, 10, 7, 11, 0, 12 
 There is no visible pattern seen when just looking at the numbers but when we graph the sequence in a scatter plot, we can see something(s) emerge:
