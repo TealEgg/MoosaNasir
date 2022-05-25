@@ -6,7 +6,7 @@ This is my first post so welcome! I just finished working on creating this websi
 For those who don't know, a factor f of a number n is an integer that when n is divided by f, the quotient is equal to an integer (not a decimal). The largest factor of any number n is the largest integer that divides evenly into n. The same applies to the others (smallest and primes).
 
 Lets first discuss the largest factor. The basic algorithm to caculate this is as follows ( I call it largestDivisor because Divisor and Factor are kind of interchangeable):
-<code>int largestDivisor(int n)
+<pre><code>int largestDivisor(int n)
 {
   int largestDivisor = 0;
   for (int i = n - 1; i > 1; i--)
