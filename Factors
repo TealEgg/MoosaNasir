@@ -20,13 +20,17 @@ Lets first discuss the largest factor. The basic algorithm to caculate this is a
   return largestDivisor;
 }</code></pre>
 If a number is prime, then we set its largest divisor is 0. This is because technically the largest divisor of any number is itself and if we were to follow that logic, the squence would not look that interesting. To create a sequence, we can use a for loop to iterate over the positive numbers starting from 1. It gives us the following sequence which is the first 25 numbers
-0, 0, 0, 2, 0, 3, 0, 4, 3, 5, 0, 6, 0, 7, 5, 8, 0, 9, 0, 10, 7, 11, 0, 12 
+
+0, 0, 0, 2, 0, 3, 0, 4, 3, 5, 0, 6, 0, 7, 5, 8, 0, 9, 0, 10, 7, 11, 0, 12
+
 There is no visible pattern seen when just looking at the numbers but when we graph the sequence in a scatter plot, we can see something(s) emerge:
 
 <img src="https://raw.githubusercontent.com/TealEgg/Testing/main/LargestDivisor1.png" alt="graph of largest factor of an integer">
 
 I have no idea why that scatter plot looks like it was created in the 1960s but you can still see the lines of different slopes emerge. If it isn't obvious, the x axis is the number n and the y axis is the largest factor. Just by looking at the first few recognizable lines the slopes in order are:
+
 1/2, 2/6, 2/10, 2/14, 2/22, 2/26
+
 The denominators follow the of sequence of <a href="https://oeis.org/A039956">A039956</a>, Even squarefree numbers.
 
 
