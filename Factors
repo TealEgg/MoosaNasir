@@ -29,9 +29,14 @@ There is no visible pattern seen when just looking at the numbers but when we gr
 
 I have no idea why that scatter plot looks like it was created in the 1960s but you can still see the lines of different slopes emerge. If it isn't obvious, the x axis is the number n and the y axis is the largest factor. Just by looking at the first few recognizable lines the slopes in order are:
 
-1/2, 2/6, 2/10, 2/14, 2/22, 2/26
+1/2, 1/3, 1/5, 1/7, 1/11, 1/13, 1/17
 
-The denominators follow the of sequence of <a href="https://oeis.org/A039956">A039956</a>, Even squarefree numbers.
+The denominators seem to be the prime numbers which is pretty neet. Here is an image of the graph with the slopes as well:
+
+img src="https://raw.githubusercontent.com/TealEgg/Testing/main/Slopes.png" alt="slopes">
+
+
+
 
 
 
