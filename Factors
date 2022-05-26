@@ -35,8 +35,9 @@ The denominators seem to be the prime numbers which is pretty neet. Here is an i
 
 <img src="https://raw.githubusercontent.com/TealEgg/Testing/main/Slopes.png" alt="slopes">
 
+Now lets look at the smallest factor, the algorithm to calculate this is esentially the same as the largest divisor just changing the for loop from for (int i = n - 1; i > 1; i--) to (int i = 2; i < n; i++). Here is how the graph looks:
 
-
+<img src="https://raw.githubusercontent.com/TealEgg/Testing/main/SmallestDivisor1.png" alt="graph of smallest factor of an integer">
 
 
 
