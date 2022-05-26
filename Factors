@@ -39,5 +39,7 @@ Now lets look at the smallest factor, the algorithm to calculate this is esentia
 
 <img src="https://raw.githubusercontent.com/TealEgg/Testing/main/SmallestDivisor1.png" alt="graph of smallest factor of an integer">
 
+We can sort of see the square root function just by looking at the graph and when we place the function, we get a perfect fit.
 
+<img src="https://raw.githubusercontent.com/TealEgg/Testing/main/SmallestDivisor2.png" alt="graph of smallest factor of an integer with square root function">
 
