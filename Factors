@@ -26,7 +26,7 @@ If a number is prime, then we set its largest divisor is 0. This is because tech
 There is no visible pattern seen when just looking at the numbers but when we graph the sequence in a scatter plot, we can see something(s) emerge:
 
 <img src="https://raw.githubusercontent.com/TealEgg/Testing/main/LargestDivisor1.png" alt="graph of largest factor of an integer">
-
+<figure class="zoo-item" data-zoo-image="https://raw.githubusercontent.com/TealEgg/Testing/main/LargestDivisor1.png" data-zoo-scale="3"></figure>
 I have no idea why that scatter plot looks like it was created in the 1960s but you can still see the lines of different slopes emerge. If it isn't obvious, the x axis is the number n and the y axis is the largest factor. Just by looking at the first few recognizable lines the slopes in order are:
 
 1/2, 1/3, 1/5, 1/7, 1/11, 1/13, 1/17
