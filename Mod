@@ -1,0 +1,7 @@
+<b>Digit mod digit to its right until last Digit</b>
+May 24th 2022
+
+The Premise of this sequence is to use the modular operation on most left digit to the one to the right of it, then mod the answer of that mod operation to the next digit to the right of it, and so on and so on. For example, lets say we have the number 7423, if we wanted to apply this algorithm to that number, we would first mod 7 by 4, which gives us 3, then we would mod 3 by 2, which gives us 1, then we would mod 1 by 3 which gives us 1. Here is an image example:
+
+<img src="https://raw.githubusercontent.com/TealEgg/MoosaNasir/main/mod.png" alt="mod example">
+
