@@ -5,3 +5,10 @@ The Premise of this sequence is to use the modular operation on most left digit 
 
 <img src="https://raw.githubusercontent.com/TealEgg/MoosaNasir/main/mod.png" alt="mod example">
 
+If we run this algorithm on every number on every number that does not contain zeros in it (A052382 - zeroless numbers), we get the following sequence:
+
+1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 2, 2, 2, 2, 2, 2, 2, 0, 1, 0, 3, 3, 3, 3, 3, 3, 0, 0, 1, 0, 4, 4, 4, 4, 4, 0, 1, 2, 1, 0, 5, 5, 5, 5, 0, 0, 0, 2, 1, 0, 6, 6, 6, 0, 1, 1, 3, 2, 1, 0, 7, 7, 0, 0, 2, 0, 3, 2, 1, 0, 8, 0, 1, 0, 1, 4, 3, 2, 1, 0
+
+When we graph this, we get the follwing:
+
+<img src="https://raw.githubusercontent.com/TealEgg/MoosaNasir/main/Modgraph.png" alt="mod graph">
