@@ -1,0 +1,14 @@
+<b>Triangle with each term being the sum of the terms above it verticlly and diagonally </b>
+June 6th 2022
+
+This triangle has a similar structure to that of the Trinomial triangle with the exception that each term is equal to the sum of the terms above it verticlly and diagonally instead of just the sum of the 3 terms above it. It can be better shown with an example: 
+
+<img src="https://raw.githubusercontent.com/TealEgg/MoosaNasir/main/pascalSVGSteps.png" alt="Triangle Steps">
+
+Here is an image the goes through 10 steps:
+
+<img src="https://raw.githubusercontent.com/TealEgg/MoosaNasir/57b75c1fdab8856d96431324dac5bc3dedbf2f93/pascalSVG.svg" alt="Triangle">
+
+The sequence of this triangle read by rows for the first few steps is:
+
+1 1 1 1 2 2 4 2 2 4 5 10 10 10 5 4 8 12 26 30 40 30 26 12 8
