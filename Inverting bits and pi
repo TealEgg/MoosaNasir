@@ -1,0 +1,36 @@
+<b>Inverting bits and pi</b>
+June 9th 2022
+
+In the base 10 System, a digit can only be a number between 0 and 9 Pi, an irrational number has an infinite amount of these digits which we have at our disposal. The idea of this sequence is to have a base 2 number that is exactly 10 digits long (0000000000) and for the nth iteration of the sequence we get nth digit of pi and use it as an index for the base 2 number. If the digit at that index is 0, then we switch it to 1. If the digit at that index is 1, then we switch it to 0. Then we return the base 10 of this number as an output. The min number is 0 and the max number is 1023. Each iteration depends on the last. Here is the mapping of the index of each digit: 
+
+nth Digit of Pi : 0 1 2 3 4 5 6 7 8 9
+Base 2 bits   :   0 0 0 0 0 0 0 0 0 0
+
+Lets start off with the the first digit, which is 3. We look for index 3 and switch the bit at that location from 0 to 1, like so:
+
+nth Digit of Pi : 0 1 2 3 4 5 6 7 8 9
+Base 2 bits   :   0 0 0 1 0 0 0 0 0 0
+
+When we convert 0001000000 to base 10, we get 64. These means the first term of this sequence is 64.
+
+Lets skip forward to the 9th digit, which is 5. This base 2 number before this point looks like this:
+
+nth Digit of Pi : 0 1 2 3 4 5 6 7 8 9
+Base 2 bits   :   0 0 1 1 1 1 1 0 0 1
+
+This is equal to 249. When we change the bit at index 5 from 1 to 0, it will look like:
+
+nth Digit of Pi : 0 1 2 3 4 5 6 7 8 9
+Base 2 bits   :   0 0 1 1 1 0 1 0 0 1
+
+Which is equal to 233
+
+Here is a graph of the first 100 digits:
+<img src="https://raw.githubusercontent.com/TealEgg/MoosaNasir/main/PiGraph.png" alt="pi digits graph">
+
+With Lines:
+<img src="https://raw.githubusercontent.com/TealEgg/MoosaNasir/main/PiGraphlines.png" alt="pi digits graph">
+
+The first 100 terms of this sequence are:
+64, 320, 352, 96, 112, 113, 241, 249, 233, 169, 185, 187, 186, 190, 191, 255, 127, 63, 61, 29, 21, 149, 157, 189, 253, 189, 191, 255, 127, 123, 122, 90, 602, 730, 728, 730, 762, 1018, 1019, 1023, 767, 759, 758, 694, 695, 694, 758, 754, 738, 994, 482, 498, 496, 368, 880, 881, 885, 853, 852, 884, 852, 836, 837, 965, 901, 389, 385, 387, 131, 139, 171, 683, 675, 547, 545, 553, 681, 169, 171, 170, 171, 169, 161, 33, 37, 549, 613, 581, 583, 711, 727, 663, 695, 567, 823, 567, 563, 51, 59, 63, 62
+
