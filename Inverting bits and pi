@@ -4,24 +4,24 @@ June 9th 2022
 In the base 10 System, a digit can only be a number between 0 and 9 Pi, an irrational number has an infinite amount of these digits which we have at our disposal. The idea of this sequence is to have a base 2 number that is exactly 10 digits long (0000000000) and for the nth iteration of the sequence we get nth digit of pi and use it as an index for the base 2 number. If the digit at that index is 0, then we switch it to 1. If the digit at that index is 1, then we switch it to 0. Then we return the base 10 of this number as an output. The min number is 0 and the max number is 1023. Each iteration depends on the last. Here is the mapping of the index of each digit: 
 
 nth Digit of Pi : 0 1 2 3 4 5 6 7 8 9
-Base 2 bits   :   0 0 0 0 0 0 0 0 0 0
+Base 2 bits     : 0 0 0 0 0 0 0 0 0 0
 
 Lets start off with the the first digit, which is 3. We look for index 3 and switch the bit at that location from 0 to 1, like so:
 
 nth Digit of Pi : 0 1 2 3 4 5 6 7 8 9
-Base 2 bits   :   0 0 0 1 0 0 0 0 0 0
+Base 2 bits     : 0 0 0 1 0 0 0 0 0 0
 
 When we convert 0001000000 to base 10, we get 64. These means the first term of this sequence is 64.
 
 Lets skip forward to the 9th digit, which is 5. This base 2 number before this point looks like this:
 
 nth Digit of Pi : 0 1 2 3 4 5 6 7 8 9
-Base 2 bits   :   0 0 1 1 1 1 1 0 0 1
+Base 2 bits     : 0 0 1 1 1 1 1 0 0 1
 
 This is equal to 249. When we change the bit at index 5 from 1 to 0, it will look like:
 
 nth Digit of Pi : 0 1 2 3 4 5 6 7 8 9
-Base 2 bits   :   0 0 1 1 1 0 1 0 0 1
+Base 2 bits     : 0 0 1 1 1 0 1 0 0 1
 
 Which is equal to 233
 
