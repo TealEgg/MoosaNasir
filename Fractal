@@ -4,5 +4,8 @@ June 24th 2022
 A fractal I thought of
 <img src="https://raw.githubusercontent.com/TealEgg/Testing/main/TestDraw.png" alt="fractal">
 This fractal can be infinitly zoomed, but it doesn't change and looks the same.
+
 The pseudo equation of this fractal is 
 <img src="https://latex.codecogs.com/gif.latex?%5Cfrac%7BReverseNum%28ReverseNum%28x%29%20%5Ctimes%20ReverseNum%28y%29%29%7D%7Bx%20%5Ctimes%20y%7D" alt="fractal">
+
+The squarish look of the fractal might just be due to the precision of the types I used while making this
