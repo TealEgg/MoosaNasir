@@ -2,7 +2,7 @@
 June 24th 2022
 
 Two Conjectures I thought of. 
-1. Every even number greater than zero is equal to the difference of two prime numbers
+<b>1. Every even number greater than zero is equal to the difference of two prime numbers</b>
 Ex. 
 5 - 3 = 2
 7 - 3 = 4
@@ -34,7 +34,8 @@ Ex.
 59 - 3 = 56
 61 - 3 = 58
 67 - 7 = 60
-2. There is an infinite number of differences of primes for every even number greater than zero
+
+<b>2. There is an infinite number of differences of primes for every even number greater than zero</b>
 Ex. 
 19 - 3 = 16
 23 - 7 = 16
