@@ -1,0 +1,18 @@
+<b>Box Question</b>
+June 24th 2022
+
+<img src="https://raw.githubusercontent.com/TealEgg/Testing/main/Box.png" alt="Box">
+
+In the image above, we start with a box and each iteration we divide the area of the box from the previous iteration by 4 and line it around the box.
+
+The equation of area of the box each iteration is
+<img src="https://latex.codecogs.com/gif.latex?a%28n%29%3D%5Cfrac%7B1%7D%7B4%5En%7D" alt="Area equation">
+where n starts at zero
+
+The equation of the number of boxes each iteration is
+<img src="https://latex.codecogs.com/gif.latex?f%28n%29%3D4%283%5Ctimes%202%5En-3%29" alt="BoxNum equation">
+where n starts at zero. The only difference is that in the square f(0) is equal to zero instead of one
+
+The equation of the total area of the boxes of that iteration is
+<img src="https://latex.codecogs.com/gif.latex?f%28n%29%3D4%283%5Ctimes%202%5En-3%29*4%5En" alt="BoxArea equation">
+where n starts at zero. The only difference is that in the square t(0) is equal to zero instead of one
