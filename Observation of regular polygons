@@ -1,0 +1,8 @@
+<b>Observation of regular polygons</b>
+July 5th 2022
+
+For any regular polygons of side length n, it's area is equal to n^2 times the area of the regular polygon of side length 1.
+
+<img src="https://raw.githubusercontent.com/TealEgg/MoosaNasir/main/AreaPolygon.png" alt="Area Polygon">
+
+This can be best shown is the tiling polygons, but works with any other polygon as well (ex. pentagon, heptagon, octagon, etc.)
