@@ -13,7 +13,7 @@ My approach was a little different, instead of making the particles traverse all
 My algorithm also has seeds and particles. The seeds which are also just stopped particles are placed randomly around the make and added to an array of alive particles. Then we randomly choose one of these stopped particles and place a new particle facing in a random direction. This newly placed particle is added to the array of alive particles. Once a particle is covered on all 8 pixels around it, the pixel is removed from the list of alive particles and added to the list of dead particles, where it will stay till the end of the simulation.
 
 Here is how DLA would look using my algorithm:
-<img src="https://raw.githubusercontent.com/TealEgg/MoosaNasir/main/DLATest27.png" alt="DLA using my method">
+<img src="https://raw.githubusercontent.com/TealEgg/MoosaNasir/main/DLAtest27.png" alt="DLA using my method">
 
 Supringly, this algorithm worked! It does look a little unatural compared to the traditional method but it doesn't look half bad. My algorithm should be faster but the only downside would be data handling which might make this method slow if not properly done.
 
