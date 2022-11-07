@@ -1,0 +1,20 @@
+<b>New Diffusion-limited aggregation algorithm</b>
+Novermber 6th 2022
+
+This is a pretty old project I did, probably around a year ago. At the time I was trying to create a faster DLA algirthm. My reason towards making this was for height map generation due to the mountain like strcutures DLA can create.
+
+A traditional dla algorithm will have two things, seeds and particles. The seeds are the starting point of where particles land. The particles are spawned in at a random location and will move around randomly, stopping only once they hit a seed or another stopped particle. While this alogithm is slow at the start, it becomes fast near the end due to less room for the particles to move.
+
+Here is how DLA would look using this algorithm:
+<img src="https://raw.githubusercontent.com/TealEgg/MoosaNasir/main/DLATest1.png" alt="DLA using traditional method">
+
+My approach was a little different, instead of making the particles traverse all that ground, which takes many iterations. Why not just place particles randomly on the seeds? 
+
+My algorithm also has seeds and particles. The seeds which are also just stopped particles are placed randomly around the make and added to an array of alive particles. Then we randomly choose one of these stopped particles and place a new particle facing in a random direction. This newly placed particle is added to the array of alive particles. Once a particle is covered on all 8 pixels around it, the pixel is removed from the list of alive particles and added to the list of dead particles, where it will stay till the end of the simulation.
+
+Here is how DLA would look using my algorithm:
+<img src="https://raw.githubusercontent.com/TealEgg/MoosaNasir/main/DLATest27.png" alt="DLA using my method">
+
+Supringly, this algorithm worked! It does look a little unatural compared to the traditional method but it doesn't look half bad. My algorithm should be faster but the only downside would be data handling which might make this method slow if not properly done.
+
+Note: If you would like to see the source code of my algorithm, feel free to email me at the email below.
