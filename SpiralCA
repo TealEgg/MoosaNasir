@@ -9,5 +9,12 @@ For example if the seed we chose is 10, then the binary representation would be 
 
 Here are a few examples of cool looking seeds in this cellular automata.
 
+seed 8:
+<img src="https://raw.githubusercontent.com/TealEgg/MoosaNasir/main/Spiral8.png" alt="seed 8">
+
 seed 10:
 <img src="https://raw.githubusercontent.com/TealEgg/MoosaNasir/main/Spiral10.png" alt="seed 10">
+
+seed 20:
+<img src="https://raw.githubusercontent.com/TealEgg/MoosaNasir/main/Spiral20.png" alt="seed 20">
+
