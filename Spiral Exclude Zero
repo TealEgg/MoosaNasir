@@ -1,0 +1,6 @@
+<b>Spiral Exclude Zero</b>
+November 6th 2022
+
+This was another old project I worked on. It is pretty simple but it is extremely beautiful. All we do is put all the numbers in a spiral, making them black if they contain zero and white if they don't contain zero. Here is an image of how that would look
+
+<img src="https://raw.githubusercontent.com/TealEgg/MoosaNasir/main/SpiralNoZero.png" alt="Spiral of numbers containing no zero">
