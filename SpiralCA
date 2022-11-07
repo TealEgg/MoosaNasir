@@ -1,0 +1,13 @@
+<b>Spiral Cellular Automata</b>
+November 6th 2022
+
+This project was done a decent time ago, just like a few older projects I will be uploading soon. Back then I really liked the ideas of cellular automata and wanted to create my own. After many failed attempt that just looked similar to wolframs cellular automata, I finally thought of something unique. I called it Sprial CA.
+
+The rules are pretty simple. First you choose a seed between 0 and 31. This number is then converted to binary (10110) and is used to determine the rules. We then spiral around the pixel thats in the middle of a canvas and apply the rules. Note that this pixel is black (1). The rules are pretty simple, we get the sum of the 8 neigboring pixels (1s and 0s added up) and decide whether the pixel is a black (1) or white (0) using the seed. The sum of the neighbors is then checked to the according number place in the binary of the seed. The seed is only 5 binary digits long because the only possible sums in a spiral would be 0, 1, 2, 3, and 4 which is 5 numbers.  
+
+For example if the seed we chose is 10, then the binary representation would be 01010. Lets say our pixel has a neighbor sum of 3, this means the we use the 4th number place in the binary representation. Since we see that is 1, our pixel will be 1, which is black. 
+
+Here are a few examples of cool looking seeds in this cellular automata.
+
+seed 10:
+<img src="https://raw.githubusercontent.com/TealEgg/MoosaNasir/main/Spiral10.png" alt="seed 10">
