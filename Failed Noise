@@ -1,0 +1,8 @@
+<b>Failed Noise</b>
+November 7th 2022
+
+I tried to make a new noise algoirthm that is sort of similar to perlin but instead of vectors in a random direction, used a random scalar at each vertex that infuenced the point in every unit square.
+
+Turns out, it was a fail and didn't look all too pleasing. Though if you want to see how it looks:
+<img src="https://raw.githubusercontent.com/TealEgg/MoosaNasir/main/Noise2221.png" alt="noise">
+My guess why it looks so repeated is that it might be due to the random function used to find each random scalar not being so random, but I'm not too sure.
