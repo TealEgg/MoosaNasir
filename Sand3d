@@ -1,0 +1,6 @@
+<b>Sand3d, a 3d sand falling game</b>
+November 26th 2022
+
+I releaded this demo a while back, and I thought that someone - if anyone has actually seen this blog :( - would want to play it. You can use multiple elements and watch them interact with each other. For my next update, I'm trying to get text rendering going so that I can have a functional UI system. 
+
+<iframe frameborder="0" src="https://itch.io/embed/1739141" width="552" height="167"><a href="https://tealegg.itch.io/sand3d-beta">sand3d (beta) by TealEgg</a></iframe>
